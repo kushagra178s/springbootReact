@@ -1,0 +1,36 @@
+body {
+  color: white;
+  /* margin:15px; */
+  background-color: #282c34;
+  text-align: center;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  padding: 20px;
+}
+.container .show-data {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 20px;
+}
+.container .show-data .data-card {
+  margin: 10px;
+  border: 2px solid black;
+}
+.container .fetch {
+  /* background-color: pink; */
+  flex: 2;
+}
+
+.container .crud {
+  background-color: orange;
+  flex: 1;
+  padding: 10px;
+  border-radius: 10%;
+  margin-top: 50px;
+  height: max-content;
+  /* border: 10px solid red; */
+}
